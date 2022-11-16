@@ -1,0 +1,62 @@
+<table cellpadding="0" cellspacing="0" width="100%" role="presentation" class="stylingblock-content-wrapper" style="min-width: 100%; "><tr><td class="stylingblock-content-margin-cell" style="padding: 0px 20px; "><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="background-color: transparent; min-width: 100%; border-top: 0px; border-right: 20px solid #E4E4E4; border-bottom: 0px; border-left: 20px solid #E4E4E4; " class="stylingblock-content-wrapper"><tr><td style="padding: 10px; " class="stylingblock-content-wrapper camarker-inner">
+  <!--== 
+%%[
+
+var @firstName
+set @firstName = AttributeValue("FirstName")
+outputLine(concat(@firstName))
+IF empty(@firstName) THEN
+    SET @firstName= "Customer"
+ENDIF
+
+]%%
+
+==-->
+
+ 
+    <meta name="format-detection" content="url=no">
+
+
+
+<style>
+
+a[x-apple-data-detectors] {
+    text-decoration: none !important;
+    color: black !important;
+    font-size: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+}
+ 
+u + #body a {
+    color: #77d6fc !important;
+    font-size: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+}
+ 
+#MessageViewBody a {
+    color: #77d6fc !important;
+    font-size: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+}
+</style>
+
+
+<div style="font-size:12px;font-family:Helvetica">
+
+<span>Hi %%=v(@firstName)=%%,</span><br><br><br>
+<span>Thanks for getting in touch about your account. I understand you would like us to remove your e-mail from our systems. </span><br><br><br>
+  <span>On checking your account I can see you have a Single Sign On account, as such removal of this email address will result in the deletion of your Grocery, George, Asda Rewards, and Scan & Go accounts.
+</span>
+  <br><br><br>
+  <span>I must also make you aware once we remove your account you will no longer be able to access your online order history or receipts, you may want to print these off or save these on your computer for your own records. You will no longer have access to any eVouchers or promotions on your account. In addition to this we would no longer have access to process any refunds on your account. </span><br><br><br>
+  <span>If you understand this and are happy for us to proceed with the deletion could you kindly let me know by responding to this email please?</span><br><br><br>
+  <span>Regards</span><br><br><br>
+<a href="”#”" x-apple-data-detectors="”true”" style="color:black;text-decoration:none">George.com</a>
+</div>
+</td></tr></table></td></tr></table>
